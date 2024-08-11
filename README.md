@@ -12,28 +12,28 @@ npx hardhat node
 npx hardhat ignition deploy ./ignition/modules/Lock.js
 ```
 
-- DiamondCutFacet deployed: 0x133A54d6fa1f171E37b1fAB5Dd7e7b785E33C5B1
-  https://testnet.bscscan.com/address/0x133A54d6fa1f171E37b1fAB5Dd7e7b785E33C5B1#code
-- Diamond deployed: 0x08215B93594B058A4Dc94014B26C0F0F54B6941D
-  https://testnet.bscscan.com/address/0x08215B93594B058A4Dc94014B26C0F0F54B6941D#code
-- DiamondInit deployed: 0x3C5E409Dbe3fa59435cdCb790cbe14e54c6A9E05
-  https://testnet.bscscan.com/address/0x3C5E409Dbe3fa59435cdCb790cbe14e54c6A9E05#code
+- DiamondCutFacet deployed: 0xB68fd801dE2107e1DAe7AeF6f1e03fa772d56318
+  https://testnet.bscscan.com/address/0xB68fd801dE2107e1DAe7AeF6f1e03fa772d56318#code
+- Diamond deployed: 0xa0A708b0484F4080dcD31CEb2E6557e01cB4607f
+  https://testnet.bscscan.com/address/0xa0A708b0484F4080dcD31CEb2E6557e01cB4607f#code
+- DiamondInit deployed: 0x624abf031fe8B5a8c49C4cC0AC1317710273Af0A
+  https://testnet.bscscan.com/address/0x624abf031fe8B5a8c49C4cC0AC1317710273Af0A#code
 
 ### Deploying facets
 
-- DiamondLoupeFacet deployed: 0x377D5A93c99Aa09F804E1f430950F808194abbDd
-  https://testnet.bscscan.com/address/0x377D5A93c99Aa09F804E1f430950F808194abbDd#code
-- OwnershipFacet deployed: 0x8Bc1149D0B08e1aEe2358e0323FC7243cC6cF3f2
-  https://testnet.bscscan.com/address/0x8Bc1149D0B08e1aEe2358e0323FC7243cC6cF3f2#code
-- ContractA deployed: 0x5b3E2145991db274dbc94ffda4527B5F23c61350
-  https://testnet.bscscan.com/address/0x5b3E2145991db274dbc94ffda4527B5F23c61350#code
-- ContractB deployed: 0x19200759bdD654502d43B12CE8e73718bB7dF9D4
-  https://testnet.bscscan.com/address/0x19200759bdD654502d43B12CE8e73718bB7dF9D4#code
+- DiamondLoupeFacet deployed: 0x3b30AD8069191538aF0E28991642F1929e9e1e12
+  https://testnet.bscscan.com/address/0x3b30AD8069191538aF0E28991642F1929e9e1e12#code
+- OwnershipFacet deployed: 0x402C6AcB8e2117915a9c66594547E04FC436B05d
+  https://testnet.bscscan.com/address/0x08cfBE62857F30184Ea91f35479750516F8B4093#code
+- ContractA deployed: 0x24136857aB7D5A83A12fdBE43971e298219CDA15
+  https://testnet.bscscan.com/address/0x24136857aB7D5A83A12fdBE43971e298219CDA15#code
+- ContractB deployed: 0x5729698F1a4B1DDEA9dB9B3b067656fDa82701BA
+  https://testnet.bscscan.com/address/0x5729698F1a4B1DDEA9dB9B3b067656fDa82701BA#code
 
 ```js
 Diamond Cut: [
   {
-    facetAddress: '0x377D5A93c99Aa09F804E1f430950F808194abbDd',
+    facetAddress: '0x3b30AD8069191538aF0E28991642F1929e9e1e12',
     action: 0,
     functionSelectors: [
       '0xcdffacc6',
@@ -47,7 +47,7 @@ Diamond Cut: [
     ]
   },
   {
-    facetAddress: '0x8Bc1149D0B08e1aEe2358e0323FC7243cC6cF3f2',
+    facetAddress: '0x402C6AcB8e2117915a9c66594547E04FC436B05d',
     action: 0,
     functionSelectors: [
       '0x8da5cb5b',
@@ -58,35 +58,26 @@ Diamond Cut: [
     ]
   },
   {
-    facetAddress: '0x5b3E2145991db274dbc94ffda4527B5F23c61350',
+    facetAddress: '0x24136857aB7D5A83A12fdBE43971e298219CDA15',
     action: 0,
     functionSelectors: [
       '0x20965255',
-      '0x8da5cb5b',
-      '0x715018a6',
       '0x55241077',
-      '0xf2fde38b',
       contract: [BaseContract],
       remove: [Function: remove],
       get: [Function: get]
     ]
   },
   {
-    facetAddress: '0x19200759bdD654502d43B12CE8e73718bB7dF9D4',
+    facetAddress: '0x5729698F1a4B1DDEA9dB9B3b067656fDa82701BA',
     action: 0,
     functionSelectors: [
-      '0x75b238fc',
-      '0xa217fddf',
       '0x70480275',
-      '0x248a9ca3',
-      '0x2f2ff15d',
-      '0x91d14854',
+      '0x41858c4b',
+      '0x8204c326',
+      '0x24d7806c',
       '0x1785f53c',
       '0x83b8a5ae',
-      '0x36568abe',
-      '0xd547741f',
-      '0x29575f6a',
-      '0x01ffc9a7',
       '0xada8f919',
       contract: [BaseContract],
       remove: [Function: remove],
