@@ -19,23 +19,16 @@ npx hardhat ignition deploy ./ignition/modules/Lock.js
 - DiamondInit deployed: 0x3C5E409Dbe3fa59435cdCb790cbe14e54c6A9E05
   https://testnet.bscscan.com/address/0x3C5E409Dbe3fa59435cdCb790cbe14e54c6A9E05#code
 
-Deploying facets
-DiamondLoupeFacet deployed: 0x377D5A93c99Aa09F804E1f430950F808194abbDd
-The contract 0x377D5A93c99Aa09F804E1f430950F808194abbDd has already been verified.
-https://testnet.bscscan.com/address/0x377D5A93c99Aa09F804E1f430950F808194abbDd#code
-OwnershipFacet deployed: 0x8Bc1149D0B08e1aEe2358e0323FC7243cC6cF3f2
-The contract 0x8Bc1149D0B08e1aEe2358e0323FC7243cC6cF3f2 has already been verified.
-https://testnet.bscscan.com/address/0x8Bc1149D0B08e1aEe2358e0323FC7243cC6cF3f2#code
-ContractA deployed: 0x5b3E2145991db274dbc94ffda4527B5F23c61350
-The contract 0x5b3E2145991db274dbc94ffda4527B5F23c61350 has already been verified.
-https://testnet.bscscan.com/address/0x5b3E2145991db274dbc94ffda4527B5F23c61350#code
-ContractB deployed: 0x19200759bdD654502d43B12CE8e73718bB7dF9D4
-Successfully submitted source code for contract
-contracts/facets/ContractB.sol:ContractB at 0x19200759bdD654502d43B12CE8e73718bB7dF9D4
-for verification on the block explorer. Waiting for verification result...
+### Deploying facets
 
-Successfully verified contract ContractB on the block explorer.
-https://testnet.bscscan.com/address/0x19200759bdD654502d43B12CE8e73718bB7dF9D4#code
+- DiamondLoupeFacet deployed: 0x377D5A93c99Aa09F804E1f430950F808194abbDd
+  https://testnet.bscscan.com/address/0x377D5A93c99Aa09F804E1f430950F808194abbDd#code
+- OwnershipFacet deployed: 0x8Bc1149D0B08e1aEe2358e0323FC7243cC6cF3f2
+  https://testnet.bscscan.com/address/0x8Bc1149D0B08e1aEe2358e0323FC7243cC6cF3f2#code
+- ContractA deployed: 0x5b3E2145991db274dbc94ffda4527B5F23c61350
+  https://testnet.bscscan.com/address/0x5b3E2145991db274dbc94ffda4527B5F23c61350#code
+- ContractB deployed: 0x19200759bdD654502d43B12CE8e73718bB7dF9D4
+  https://testnet.bscscan.com/address/0x19200759bdD654502d43B12CE8e73718bB7dF9D4#code
 
 ```js
 Diamond Cut: [
